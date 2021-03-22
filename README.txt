@@ -1,0 +1,1 @@
+Run the app in android studio
