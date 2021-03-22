@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mobileappproject">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="EduClicky"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HardBedroomStats"></activity>
+        <activity android:name=".HardBedroomPlayReview" />
+        <activity android:name=".HardBedroomPlayResult" />
+        <activity android:name=".HardBedroomPlay4" />
+        <activity android:name=".HardBedroomPlay3" />
+        <activity android:name=".HardBedroomPlay2" />
+        <activity android:name=".HardBedroomPlay" />
+        <activity android:name=".HardBathroomStats" />
+        <activity android:name=".HardBathroomPlayReview" />
+        <activity android:name=".HardBathroomPlayResult" />
+        <activity android:name=".HardBathroomPlay4" />
+        <activity android:name=".HardBathroomPlay3" />
+        <activity android:name=".HardBathroomPlay2" />
+        <activity android:name=".HardBathroomPlay" />
+        <activity android:name=".HardKitchenStats" />
+        <activity android:name=".HardKitchenPlayReview" />
+        <activity android:name=".HardKitchenPlayResult" />
+        <activity android:name=".HardKitchenPlay4" />
+        <activity android:name=".HardKitchenPlay3" />
+        <activity android:name=".HardKitchenPlay2" />
+        <activity android:name=".HardKitchenPlay" />
+        <activity android:name=".HardStats" />
+        <activity android:name=".HardPlay" />
+        <activity android:name=".MediumBedroomStats" />
+        <activity android:name=".MediumBedroomPlayReview" />
+        <activity android:name=".MediumBedroomPlayResult" />
+        <activity android:name=".MediumBedroomPlay4" />
+        <activity android:name=".MediumBedroomPlay3" />
+        <activity android:name=".MediumBedroomPlay2" />
+        <activity android:name=".MediumBedroomPlay" />
+        <activity android:name=".MediumBathroomStats" />
+        <activity android:name=".MediumBathroomPlayReview" />
+        <activity android:name=".MediumBathroomPlayResult" />
+        <activity android:name=".MediumBathroomPlay4" />
+        <activity android:name=".MediumBathroomPlay3" />
+        <activity android:name=".MediumBathroomPlay2" />
+        <activity android:name=".MediumBathroomPlay" />
+        <activity android:name=".MediumStats" />
+        <activity android:name=".MediumPlay" />
+        <activity android:name=".MediumKitchenStats" />
+        <activity android:name=".MediumKitchenPlayReview" />
+        <activity android:name=".MediumKitchenPlayResult" />
+        <activity android:name=".MediumKitchenPlay4" />
+        <activity android:name=".MediumKitchenPlay3" />
+        <activity android:name=".MediumKitchenPlay2" />
+        <activity android:name=".MediumKitchenPlay" />
+        <activity android:name=".EasyBedroomStats" />
+        <activity android:name=".EasyBedroomPlayReview" />
+        <activity android:name=".EasyBedroomPlayResult" />
+        <activity android:name=".EasyBedroomPlay4" />
+        <activity
+            android:name=".EasyBedroomPlay3"
+            android:label="@string/title_activity_easy_bedroom_play3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EasyBedroomPlay2"
+            android:label="@string/title_activity_easy_bedroom_play2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EasyBedroomPlay"
+            android:label="@string/title_activity_easy_bedroom_play"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EasyBathroomStats"
+            android:label="@string/title_activity_easy_bathroom_stats"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EasyBathroomPlayReview"
+            android:label="@string/title_activity_easy_bathroom_play_review"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EasyBathroomPlayResult"
+            android:label="@string/title_activity_easy_bathroom_play_result"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EasyBathroomPlay4"
+            android:label="@string/title_activity_easy_bathroom_play4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EasyBathroomPlay3"
+            android:label="@string/title_activity_easy_bathroom_play3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EasyBathroomPlay2"
+            android:label="@string/title_activity_easy_bathroom_play2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EasyBathroomPlay"
+            android:label="@string/title_activity_easy_bathroom_play"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Verification"
+            android:label="@string/title_activity_verification"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EasyKitchenPlay4"
+            android:label="@string/title_activity_easy_kitchen_play4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EasyKitchenPlay3"
+            android:label="@string/title_activity_easy_kitchen_play3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EasyKitchenStats"
+            android:label="@string/title_activity_easy_kitchen_stats"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EasyStats"
+            android:label="@string/title_activity_easy_stats"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EasyKitchenPlayResult"
+            android:label="@string/title_activity_easy_kitchen_play_result"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EasyKitchenPlay2"
+            android:label="@string/title_activity_easy_kitchen_play2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EasyKitchenPlayReview"
+            android:label="@string/title_activity_easy_kitchen_play_review"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EasyKitchenPlay"
+            android:label="@string/title_activity_easy_kitchen_play"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".EasyPlay" />
+        <activity android:name=".Start">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Login"
+            android:parentActivityName=".Start" />
+        <activity
+            android:name=".Register"
+            android:parentActivityName=".Start" />
+        <activity android:name=".Settings" />
+        <activity android:name=".Stats" />
+        <activity android:name=".Play" />
+    </application>
+
+</manifest>

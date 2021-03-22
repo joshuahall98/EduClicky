@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MobileAppProject</string>
+    <string name="title_activity_register">Register</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_login_register">LoginRegister</string>
+    <string name="title_activity_start">Start</string>
+    <string name="title_activity_easy_play">EasyPlay</string>
+    <string name="title_activity_easy_kitchen_play">EasyKitchenPlay</string>
+    <string name="title_activity_easy_kitchen_play_review">EasyKitchenPlayReview</string>
+    <string name="title_activity_easy_kitchen_play2">EasyKitchenPlay2</string>
+    <string name="title_activity_easy_kitchen_play_result">EasyKitchenPlayResult</string>
+    <string name="title_activity_easy_stats">EasyStats</string>
+    <string name="title_activity_easy_kitchen_stats">EasyKitchenStats</string>
+    <string name="title_activity_easy_kitchen_play3">EasyKitchenPlay3</string>
+    <string name="title_activity_easy_kitchen_play4">EasyKitchenPlay4</string>
+    <string name="title_activity_verification">Verification</string>
+    <string name="title_activity_easy_bathroom_play">EasyBathroomPlay</string>
+    <string name="title_activity_easy_bathroom_play2">EasyBathroomPlay2</string>
+    <string name="title_activity_easy_bathroom_play3">EasyBathroomPlay3</string>
+    <string name="title_activity_easy_bathroom_play4">EasyBathroomPlay4</string>
+    <string name="title_activity_easy_bathroom_play_result">EasyBathroomPlayResult</string>
+    <string name="title_activity_easy_bathroom_play_review">EasyBathroomPlayReview</string>
+    <string name="title_activity_easy_bathroom_stats">EasyBathroomStats</string>
+    <string name="title_activity_easy_bedroom_play">EasyBedroomPlay</string>
+    <string name="title_activity_easy_bedroom_play2">EasyBedroomPlay2</string>
+    <string name="title_activity_easy_bedroom_play3">EasyBedroomPlay3</string>
+</resources>

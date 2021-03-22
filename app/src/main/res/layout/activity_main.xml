@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/MainTheme">
+
+    <include
+    android:id="@+id/include"
+    layout="@layout/appbar"
+    tools:layout_editor_absoluteX="-41dp"
+    tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+    android:id="@+id/appTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="EduClicky"
+    android:textSize="30dp"
+    android:textColor="@color/Pink"
+    app:layout_constraintBottom_toBottomOf="@+id/include"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.045"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/include"
+    app:layout_constraintVertical_bias="0.432"
+        />
+
+    <Button
+        android:id="@+id/playBtn"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:text="Play"
+        android:textSize="30dp"
+        android:textColor="@color/Red"
+        android:background="@color/Orange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include"
+        app:layout_constraintVertical_bias="0.200" />
+
+    <Button
+        android:id="@+id/statsBtn"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:text="Stats"
+        android:textSize="30dp"
+        android:textColor="@color/Red"
+        android:background="@color/Orange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playBtn"
+        app:layout_constraintVertical_bias="0.200" />
+
+    <Button
+        android:id="@+id/settingsBtn"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:text="Settings"
+        android:textSize="30dp"
+        android:textColor="@color/Red"
+        android:background="@color/Orange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/statsBtn"
+        app:layout_constraintVertical_bias="0.321" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
